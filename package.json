@@ -1,0 +1,13 @@
+{
+  "name": "qewd-up-demo",
+  "version": "1.0.0",
+  "description": "Automated QEWD Builder",
+  "author": "Rob Tweed <rtw...@mgateway.com>",
+  "scripts": {
+    "start": "node node_modules/qewd/up/run_native"
+  },
+  "dependencies": {
+    "qewd": "^2.51.12",
+    "qewd-transform-json": ""
+  }
+}

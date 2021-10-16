@@ -1,0 +1,19 @@
+{
+  "qewd_up": true,
+  "qewd": {
+    "managementPassword": "keepThisSecret!",
+    "serverName": "QEWD-Up demo",
+    "mode": "development",
+    "poolSize": 2,
+    "database": {
+    "type": "dbx",
+    "params": {
+      "database": "Cache",
+      "path": "C:\\InterSystems\\Cache\\mgr",
+      "username": "_SYSTEM",
+      "password": "SYS",
+      "namespace": "USER"
+    }
+    }
+  }  
+}
