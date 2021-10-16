@@ -7,13 +7,20 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Launch QEWD Up demo in debug mode",
+      "name": "Launch QEWD Up in debug mode",
       "program": "${workspaceFolder}\\node_modules\\qewd\\up\\run_native",
       "args": [
       ],
       "cwd": "${workspaceFolder}",
       "autoAttachChildProcesses": true,
       "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "protocol": "inspector",
+      "port": 9229,
+      "request": "attach",
+      "name": "Attach to QEWD Up"
     }
   ]
 }
