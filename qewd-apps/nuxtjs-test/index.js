@@ -1,0 +1,1 @@
+module.exports = require('C:\\GitHub\\qewd-up-demo\\node_modules\\qewd\\up\\qewdAppHandler')('C:\\GitHub\\qewd-up-demo\\qewd-apps\\nuxtjs-test');

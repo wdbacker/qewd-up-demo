@@ -3,5 +3,10 @@
     "uri": "/api/info",
     "method": "GET",
     "handler": "getInfo"
+  },
+  {
+    "uri": "/api/test",
+    "method": "GET",
+    "handler": "test"
   }
 ]

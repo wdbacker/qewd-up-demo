@@ -6,14 +6,14 @@
     "mode": "development",
     "poolSize": 2,
     "database": {
-    "type": "dbx",
-    "params": {
-      "database": "Cache",
-      "path": "C:\\InterSystems\\Cache\\mgr",
-      "username": "_SYSTEM",
-      "password": "SYS",
-      "namespace": "USER"
-    }
+      "type": "dbx",
+      "params": {
+        "database": "Cache",
+        "path": "C:\\InterSystems\\Cache\\mgr",
+        "username": "_SYSTEM",
+        "password": "SYS",
+        "namespace": "USER"
+      }
     }
   }  
 }
