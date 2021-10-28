@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Export generator="IRIS" version="26" zv="IRIS for Windows (x86-64) 2021.1 (Build 215U)" ts="2021-10-28 16:41:28">
+<Routine name="jsHeader" type="INC" timestamp="66045,60029.791078"><![CDATA[
+jsHeader
+ ;
+ ;QEWD.js macro definitions
+ ;
+ ;shortcut for session global
+ #Def1Arg session(%subscripts) ^CacheTempEWDSession("session",%subscripts)
+ ;shortcut for JavaScript data global holding parameter and response object
+ #Def1Arg jsData(%subscripts) ^CacheTempEWDData($j,%subscripts)
+ ;shortcut for temporary work global you can use inside your IRIS methods
+ #Def1Arg tmp(%subscripts) ^CacheTemp($j,%subscripts)
+ ;
+ ;encoding an IRIS Latin-1 string to UTF8 in JavaScript
+ #define jsEnc(%s) $zcvt(%s,"O","UTF8") 
+ ;decoding an UTF8 string in JavaScript to IRIS Latin-1
+ #define jsDec(%s) $zcvt(%s,"I","UTF8")
+ ;
+ 
+]]></Routine>
+</Export>
