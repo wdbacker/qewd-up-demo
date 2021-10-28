@@ -6,4 +6,4 @@ module.exports = function(args, finished) {
   finished({
     text: 'You sent: "' + incomingText + '" to QEWD-Up at ' + d.toUTCString()
   })
-};
+}
