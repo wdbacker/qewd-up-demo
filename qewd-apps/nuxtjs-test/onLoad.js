@@ -43,6 +43,6 @@ module.exports = function(application) {
       return jsonResponse;
     }
     // preserve QEWD worker process object as 'this' context inside function
-    this.dbxFunction = _dbxFunction.bind(this)
+    this.db.call = this.dbxFunction = _dbxFunction.bind(this)
   }
 }
